@@ -1,0 +1,19 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "Build a Node.js API",
+  "main": "server.js",
+  "scripts": {
+	"dev": "nodemon server.js"    
+  },
+  "author": "Jose Rivas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.27"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
